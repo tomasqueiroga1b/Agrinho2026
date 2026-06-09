@@ -1,17 +1,193 @@
 <!DOCTYPE html>
 <html>
-    
-<head>
-    <meta charset = "utf-8"/>
-    <title>Site <p>bitolindo...</p></title>
-</head>
-<body>
-<div> Agrinho2026</div>
-<div>bito lindo</div>
 
+<head>
+    <meta charset="utf-8">
+    <title>🪴 Pequenos Atos e Grandes Passos</title>
+
+    <style>
+
+        body{
+            background-image: url("imagens/fundo.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            color: rgb(245, 239, 239);
+            font-weight: bold;
+        }
+
+        .caixaResultado{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            background-color: rgb(27, 90, 21);
+
+            width: 700px;
+
+            padding: 20px;
+
+            border-radius: 15px;
+
+            margin-top: 20px;
+
+            box-shadow: 0px 0px 10px rgb(43, 158, 70);
+        }
+
+        .imagemResultado{
+            width: 250px;
+            border-radius: 10px;
+        }
+
+        .textoResultado{
+            text-align: left;
+            color: rgb(100, 194, 63);
+        }
+
+        .imagemLegenda{
+            font-size: 10px;
+            font-style: italic;
+            text-align: center;
+        }
+
+        .textoPósCaixa{
+            font-size: 18px;
+            font-family: Calibri, sans-serif;
+            color: rgb(234, 253, 234);
+            font-weight: bold;
+        }
+
+        button{
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+    </style>
+
+    <script>
+
+        function mostrarResultado() {
+
+            document.getElementById("resultados").innerHTML = `
+
+                <div class="caixaResultado">
+
+                    <div>
+
+                        <img src="imagens/bt.png" class="imagemResultado">
+
+                        <p class="imagemLegenda">
+                            ← Ilustração de uma piscina olímpica
+                        </p>
+
+                    </div>
+
+                    <div class="textoResultado">
+
+                        <h3>Impacto dessa escolha:</h3>
+
+                        <p>
+                            Se você e mais 10 milhões de pessoas fizerem isso,
+                            serão desperdiçados aproximadamente 2.500.000 litros
+                            de água por dia. Isso encheria uma piscina olímpica inteira!
+                        </p>
+
+                        <p>
+                            Pequenas atitudes parecem insignificantes quando
+                            feitas por uma única pessoa, mas quando repetidas
+                            por milhões de pessoas geram consequências enormes.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="textoPósCaixa">
+
+                    <p>
+                        Se esse desperdício que muitas pessoas já fazem em suas casas
+                        <b>todos os dias</b> já causa esse prejuízo, imagine só os
+                        prejuízos dos grandes produtores de alimentos, que
+                        <b>geralmente envolvem grandes quantidades de água</b>
+                        em seus processos de produção.
+                    </p>
+
+                    <p>
+                        Além disso, são desperdiçadas a nossa grande fonte de energia:
+                        os alimentos. Em processos de armazenamento, transporte ou
+                        produção, uma falha pode ser catastrófica.
+                    </p>
+
+                    <h1>O que podemos fazer para mudar isso?</h1>
+
+                    <p>
+                        Como na maioria dos casos, a causa geral do problema está
+                        relacionada a <b>falhas técnicas</b> desses processos citados,
+                        devemos também pensar em soluções técnicas e possíveis para isso.
+                    </p>
+
+                    <p><b>Algumas soluções possíveis são:</b></p>
+
+                    <ul>
+                        <li>
+                            Investimentos em tecnologias de armazenamento para maior
+                            tempo de preservação e maior segurança dos alimentos.
+                        </li>
+
+                        <li>
+                            Investimentos na infraestrutura das cidades, pois parte dos
+                            acidentes ocorre devido à baixa qualidade das estradas.
+                        </li>
+
+                        <li>
+                            Investimentos no cuidado do manuseio dos alimentos para
+                            evitar acidentes e perdas desnecessárias.
+                        </li>
+                    </ul>
+
+                </div>
+<q>Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente</q>
+            `;
+
+            document.getElementById("botaoResultado").style.display = "none";
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <div>Agrinho 2026</div>
+
+    <h1>🪴 Suas escolhas importam mais do que você pensa!</h1>
+
+    <p>
+        Quando imaginamos alguns atos inocentes que fazemos no nosso dia a dia,
+        não imaginamos o nível das consequências que eles trazem,
+        principalmente considerando sua escala global.
+    </p>
+
+    <h2>O que ocorre se...</h2>
+
+    <b>
+        você decide abrir a torneira de água da sua casa por 5 segundos na potência máxima?
+    </b>
+
+    <p>
+        (suficiente para encher aproximadamente um copo de água comum)
+    </p>
+
+    <button id="botaoResultado" onclick="mostrarResultado()">
+        <b>Ver resultados</b>
+    </button>
+
+    <p id="resultados"></p>
 
 </body>
-<button> como ser totó?</button>
-
 
 </html>
