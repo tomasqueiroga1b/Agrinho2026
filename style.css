@@ -1,5 +1,172 @@
-body {
-    background-color: rgb(54, 82, 58);
-    
-    
+body{background-color: rgb(54, 82, 58);
+            
+
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 30px;
+            color: rgb(245, 239, 239);
+            font-weight: bold;
+
+            
+            
+        }
+        
+               
+            
+
+     .titulo{
+                text-align: center;
+                text-shadow: 4px 4px 7px darkgreen;
+                font-family: 'Poppins', sans-serif;
+                font-size: 50px;
+                font-weight: 500;
+                color:rgb(161, 243, 123)
+            }
+            .hero{
+background-image: url("imagens/campo.jpg");
+           
+            background-size:cover;
+            background-position:center;
+            background-attachment:fixed;
+                height: 100px;
+
+    background-image: url("imagens/fundo.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;height: 200px;
+
+    background-image: url("imagens/fundo.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+            }
+            .início{
+                font-style: italic;
+                color: rgb(124, 124, 16);
+            }
+            .conteudo{
+                background-image: url("imagens/fundo2.png");
+    background-color: white;
+    color: black;
+    padding: 70px;
 }
+        .caixaResultado{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            background-color: rgb(27, 90, 21);
+
+            width: 700px;
+
+            padding: 20px;
+
+            border-radius: 15px;
+
+            margin-top: 20px;
+
+            box-shadow: 0px 0px 10px rgb(43, 158, 70);
+        }
+
+        .imagemResultado{
+            width: 250px;
+            border-radius: 10px;
+        }
+        .imagemResultado2{
+            width: 250px;
+            border-radius: 10px;
+        }
+
+
+        .textoResultado{
+            text-align: right;
+            color: rgb(100, 194, 63);
+           
+        }
+
+        .imagemLegenda{
+            font-size: 12px;
+            font-style: italic;
+            text-align: center;
+        }
+        .imagemLegenda2{
+            font-size: 12px;
+            font-style: italic;
+            text-align: center;
+             
+        }
+
+        .textoPósCaixa{
+            font-size: 18px;
+            font-family: Calibri, sans-serif;
+            color: rgb(4, 75, 4);
+            font-weight: bold;
+        }
+        .textoPosCaixa2{
+            display:flex;
+            flex-direction: column;
+            
+        }
+        
+.botaoResultado{
+    padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            gap: 100px;
+}
+        .botao2{
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            gap: 100px;
+
+        }
+
+        .caixaResultado2{
+            
+            display:flex;
+            align-items: center;
+            gap: 20px;
+
+            background-color: rgb(59, 112, 54);
+
+            width: 800px;
+
+            padding: 20px;
+
+            border-radius: 15px;
+
+            margin-top: 20px;
+
+            box-shadow: 0px 0px 10px rgb(80, 190, 106);
+        }
+       .oqueAcontece{
+        width: 500px;
+        
+        font-size: 15px;
+        
+        text-align: left;
+        color:rgb(141, 199, 54);
+        text-shadow: 0px 0px 1px rgb(134, 238, 15);
+        font-family: Arial, Helvetica, sans-serif;
+       }
+      .primeirosbotões{
+        margin-top: 30px;
+        display:flex;
+        gap:790px;
+      }
+      .conteudo{
+        font-size: larger;
+      }
+      .perguntas{
+        display:flex;
+        gap: 30px;
+      }
+    
+
+       
