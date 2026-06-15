@@ -14,15 +14,15 @@
 </head>
 
 <body>
-<div class="hero">
+<div class="Titulos"><!-- Título principal do site -->
     <div>Agrinho 2026</div>
     <q>Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente</q>
 
-<h1 class="titulo">
+<h1 class="titulo1">
     "🪴 Suas escolhas importam mais do que você pensa!"
 </h1>
 </div>
-<div class="conteudo">
+<div class="conteudo"><!-- subtítulo do site -->
     <p>
         Quando imaginamos alguns atos inocentes que fazemos no nosso dia a dia,
         não imaginamos o nível das consequências que eles trazem,
@@ -30,10 +30,10 @@
     </p>
 
     <h2>O que ocorre se...</h2>
-    <div class="início">
+    <div class="início"><!-- observação importante para o assunto abordado -->
     <p>(considere que a população do Brasil é de aproximadamente 210 milhões de pessoas)</p>
 </div>
-<div class=" perguntas">
+<div class=" perguntas"><!-- parte escrita das perguntas -->
     <b>
         1 - você decide abrir a torneira de água da sua casa por 5 segundos na
          potência máxima (250ml jogados fora)?
@@ -41,28 +41,39 @@
      <b>2 - você decide jogar uma garrafa plástica (PET, 25g) no meio ambiente?
      </b>
 </div>
- <div class="botoesepergunta">
-
 
 <div class="primeirosbotões">
     
     <button id="botaoResultado" onclick="mostrarResultado()">
-        <b>E oque ocorre?</b>
+        <b>E o que ocorre?</b>
     </button>
 
     
     <button id="botao2" onclick="mostrarResultado2()">
-    <b>E oque ocorre?</b>
+    <b>E o que ocorre?</b>
     </button>
 
-    
-       </div> 
-       
-        
+ </div> 
 
-</div>  
  <p id="resultados"></p>
  </div>
-</body>
+
 <script src="script.js"></script>
+
+<button onclick="aumentarFonte()">
+A+
+</button>
+<button onclick="diminuirFonte()">
+A-
+</button>
+<h3>Deixe seu nome:</h3>
+
+<input type="text" id="nomeUsuario">
+
+<button onclick="agradecer()">
+Enviar
+</button>
+
+<p id="mensagem"></p>
+</body>
 </html>

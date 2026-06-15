@@ -6,7 +6,7 @@ function mostrarResultado() {
 
                     <div>
 
-                        <img src="imagens/piscinaolimpica.png" class="imagemResultado">
+                        <img src="imagens/piscinaolimpica.png" class="imagemResultado">  <!-- imagem da resposta 1-->
 
                         <p class="imagemLegenda">
                          Ilustração de uma piscina olímpica
@@ -16,7 +16,7 @@ function mostrarResultado() {
 
                     <div class="textoResultado">
 
-                        <h3>Impacto dessa escolha:</h3>
+                        <h3>Impacto dessa escolha:</h3>  <!-- resposta 1-->
 
                         <p>
                             Se você e mais 10 milhões de pessoas fizerem isso,
@@ -91,13 +91,13 @@ function mostrarResultado() {
     <div class="imagemResultado2">
         <h1>Impacto dessa escolha:</h1>
         <img src="imagens/poluição.jpg" class="imagemResultado2">
-        <p class="imagemLegenda2">ilustração de um rio de floresta poluído por plástico</p>
+        <p class="imagemLegenda2">ilustração de um rio de floresta poluído por plástico</p>  <!-- imagem da resposta 2-->
     </div>
     
-    <!-- MUDANÇA: O texto longo e a lista agora ficam aqui DENTRO da caixa verde -->
+    
     <div class="oqueacontece2">
         <div class="oqueAcontece">
-            <p>Quando 10.000 pessoas jogam uma garrafa plástica no meio ambiente, igual você, são desperdiçados 250kg de plástico, além de esses 250kg de plástico:</p>
+            <p>Quando 10.000 pessoas jogam uma garrafa plástica no meio ambiente, igual você, são desperdiçados 250kg de plástico, além de esses 250kg de plástico:</p>   <!-- resposta 2-->
         </div>
         <ul>
             <li>Intoxicam o solo e a água, com os microplásticos liberados em contato com o sol</li>
@@ -105,9 +105,9 @@ function mostrarResultado() {
             <li>Contribuem para a poluição visual de ambientes naturais</li>
         </ul>
     </div>
-</div> <!-- A caixaResultado2 fecha só aqui! -->
+</div> ->
 
-<!-- O texto menor fica fora da caixa verde e usa a sua classe para ir para baixo -->
+
 <div class="textoPosCaixa2">
     <div class="oqueacontece2">
         <p>Nós temos esses problemas de poluição por plástico, que são impressionantes, pois o Brasil por exemplo <mark>produz 11,3 milhões de toneladas de resíduos plásticos por ano</mark>, isso dá 21,3 toneladas por minuto!!
@@ -124,6 +124,23 @@ function mostrarResultado() {
             agora, pela lógica, se todos nós fizermos o contrário (ou seja, jogar o lixo no lixo), isso também causará um impacto tão grande, mas para o bem! 
             E se todos nós fizermos isso, o impacto será enorme, tão quanto foi o impacto negativo!</p>
             <q> <mark>Que façamos a nossa parte, para que o futuro seja melhor para todos nós! </mark></q>
-`;
+`;}
      
-   document.getElementById("").style.display = "none";  }
+   document.getElementById("").style.display = "none"; 
+let tamanho = 16;
+
+function aumentarFonte(){
+    tamanho += 2;
+    document.body.style.fontSize = tamanho + "px";
+}
+function diminuirFonte(){
+    tamanho -= 2;
+    document.body.style.fontSize = tamanho + "px";
+}
+     function agradecer(){
+
+    let nome = document.getElementById("nomeUsuario").value;
+
+    document.getElementById("mensagem").innerHTML =
+    "Obrigado pelo contato, " + nome + "!"; }
+    
